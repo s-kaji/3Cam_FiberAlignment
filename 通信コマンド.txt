@@ -1,0 +1,20 @@
+com0com
+
+コマンド形式
+
+RUN,CamNo   ：CamNo 1～9		指定したカメラの画像表示を開始。
+　返信
+	OK  ：成功	
+	NG　：失敗　
+
+STOP,CamNo  ：CamNo 1～9　		指定したカメラの画像表示を停止。
+　返信
+	OK  ：成功	
+	NG　：失敗　
+
+ALIG,CamNo  ：CamNo 1～9		アライメント調整の開始
+　返信
+	posX,posY,deg		posX：X(横)方向の送り量(um)
+	NG　：失敗			posY：Y(縦)方向の送り量(um)
+	　					deg：角度量(度)
+	
